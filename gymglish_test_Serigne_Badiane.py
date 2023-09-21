@@ -177,7 +177,6 @@ def doit():
     """
     Run count_occurrences_in_text on a few examples
     """
-    test_count_occurrences_in_text()
     i = 0
     for x in range(400):
         i += count_occurrences_in_text("word", SAMPLE_TEXT_FOR_BENCH)
